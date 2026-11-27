@@ -1,0 +1,78 @@
+/* ============ .prod2 ============ */
+.prod2 .prod_left,
+.prod2 .prod_right{
+    border-top: 2px solid #cf7e99;
+    border-bottom: 2px solid #cf7e99;
+}
+
+.prod2 .prod_left{
+    border-left: 2px solid #cf7e99;
+}
+.prod2 .prod_left::after {
+    border-right: 3px dashed #cf7e99;
+}
+
+.prod2 .line{
+    background-color: #cf7e99;
+}
+
+.prod2 .prod_right{
+    border-right: 2px solid #cf7e99;
+
+    background: linear-gradient(to bottom,
+        rgba(255, 5, 88, 0.4) 0%,
+        rgba(255, 78, 137, 0.3) 20%,
+        rgba(255, 255, 255, 0.3) 45%,
+        rgba(255, 255, 255, 0.5) 60%,
+        rgba(94, 94, 94, 0.3) 75%,
+        rgba(0, 0, 0, 0.5) 100%
+    ), #fff;
+}
+
+.prod2 .prod_right .prod_bg img{
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.prod2 .prod_txt_list li{
+    color: #f7f7f7;
+}
+
+.prod2 .more_btn{
+    background-color: #ff0558;
+}
+.prod2 .more_btn:hover{
+    background-color: #790028;
+}
+/* ============ .prod2 END ============ */
+
+
+
+/* ============ .prod3 ============ */
+.prod3 .prod_bg {
+    filter: grayscale(0);
+    opacity: 0.4;
+    width: 20vw;
+}
+.prod3 .prod_bg img{
+    filter: brightness(0) invert(0);
+}
+/* ============ .prod3 END ============ */
+
+
+
+/* ============ .prod4 ============ */
+.prod4 .prod_bg {
+    filter: grayscale(0);
+    opacity: 0.5;
+    width: auto;
+}
+.prod4 .prod_bg p{
+    display: inline-block;
+    color: #666;
+    font-size: 5rem;
+    font-family: "BBH Bartle", sans-serif;
+    width: 60rem;
+    white-space: nowrap
+}
+/* ============ .prod4 END ============ */
